@@ -29,9 +29,18 @@ const Hero = () => {
       </ButtonLink>
       <div className='mt-36 lg:mt-44'>
         <p className='font-display text-base text-slate-600'>
-          Created by&nbsp;
-          <span className='text-blue-600'>Ashish Sharma</span> &amp;{' '}
-          <span className='text-blue-600'>Subhojeet Chowdhury</span>
+          Created by{' '}
+          <a href=''>
+            <span className='text-blue-600 hover:text-blue-500'>
+              Ashish Sharma
+            </span>
+          </a>{' '}
+          &amp;{' '}
+          <a href=''>
+            <span className='text-blue-600 hover:text-blue-500'>
+              Subhojeet Chowdhury
+            </span>
+          </a>
         </p>
       </div>
     </Container>
