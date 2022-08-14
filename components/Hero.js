@@ -1,5 +1,7 @@
+import Container from '../components/Container';
+
 const Hero = () => {
-  return <div>Hero</div>;
+  return <Container className='pt-20 pb-16 text-center lg:pt-32'></Container>;
 };
 
 export default Hero;
