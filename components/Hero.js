@@ -3,7 +3,7 @@ import { ButtonLink } from '../components/Button';
 
 const Hero = () => {
   return (
-    <Container className='pt-20 pb-16 text-center lg:pt-32'>
+    <Container className='pt-20 pb-16 text-center lg:pt-28'>
       <h1 className='mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl'>
         Create Pro{' '}
         <span className='relative whitespace-nowrap text-blue-600'>
@@ -24,9 +24,16 @@ const Hero = () => {
         one click certificate maker. Certificates your awardees will be proud to
         show off.
       </p>
-      <ButtonLink className='mt-10' href='/register'>
+      <ButtonLink className='mt-10 px-6' href='/name'>
         Get started
       </ButtonLink>
+      <div className='mt-36 lg:mt-44'>
+        <p className='font-display text-base text-slate-600'>
+          Created by&nbsp;
+          <span className='text-blue-600'>Ashish Sharma</span> &amp;{' '}
+          <span className='text-blue-600'>Subhojeet Chowdhury</span>
+        </p>
+      </div>
     </Container>
   );
 };
