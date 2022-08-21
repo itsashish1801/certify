@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Certify</title>
         <meta name='description' content='Will change this later' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/public/favicon.png' />
       </Head>
       <Header />
       <main>
