@@ -9,8 +9,6 @@ const name = () => {
     <div className='h-screen'>
       <Head>
         <title>Certify</title>
-        <meta name='description' content='Will change this later' />
-        <link rel='icon' href='/public/favicon.png' />
       </Head>
       <Header />
       <Container className='flex items-center justify-center'></Container>
