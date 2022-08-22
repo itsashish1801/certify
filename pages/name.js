@@ -3,6 +3,11 @@ import Container from '../components/Container';
 import Header from '../components/Header';
 import Badge from '../assets/logo-badge.svg';
 import Image from 'next/image';
+import FormLayout from '../components/FormLayout';
+
+import { TextField } from '../components/Fields';
+import { Button } from '../components/Button';
+import InputPage from '../components/InputPage';
 
 const name = () => {
   return (
@@ -11,7 +16,9 @@ const name = () => {
         <title>Certify</title>
       </Head>
       <Header />
-      <Container className='flex items-center justify-center'></Container>
+      <Container className='pt-16'>
+        <InputPage />
+      </Container>
     </div>
   );
 };
